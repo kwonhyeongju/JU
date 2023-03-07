@@ -30,6 +30,8 @@
 
 **작업 트리 → 스테이지 → 저장소**    (스테이지, 저장소 는 .git 디렉터리)
 
+**untracked → unmodified → modified → staged**
+
 - 스테이징
 
 `git add 파일`
@@ -44,13 +46,15 @@
 
 - 저장소에 저장된 버전 확인
 
-`git log`
+`git log (--stat)`
 
 (HEAD -> main) ; 이 버전이 가장 최신 버전이라는 뜻
 
 영문,숫자로 이뤄진 긴 문자열 ; 커밋을 구별하는 아이디, git hash
 
+- 커밋 메세지 수정하기
 
+`
 
 
               
